@@ -28,12 +28,7 @@
    `<meta charset="utf-8">
 `
 
-3. cache control meta tag
-`
-<meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate">
-`
-
-4. http-equiv
+3. http-equiv
 
    `
    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
@@ -51,13 +46,18 @@
     <meta http-equiv="refresh" content="300">
    `
 
-5. application name and theme
+   `
+   <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate">
+   `
 
-   ` <meta name="application-name" content="StackOverflow">`
+4. application name and theme
 
-   `<meta name="theme-color" content="#4285f4" />`
+   `<meta name="application-name" content="StackOverflow">`
 
-6. website title , description and author details and keyword
+   `<meta name="theme-color" content="#4285f4" />
+`
+
+5. website title , description and author details and keyword
 
    `  <meta name="description" content="Free Web tutorials">`
 
@@ -65,13 +65,13 @@
 
    ` <meta name="keywords" content="HTML, CSS, JavaScript">`
 
-7. Google index
+6. Google index
 
    ` <meta name="robots" content="index,follow">`
 
    ` <meta name="google-site-verification" content=+nxGUDJ4QpAZ5l9Bsjdi102tLVC21AIh5d1Nl23908vVuFHs34=">`
 
-8. For Open Graph meta tag
+7. For Open Graph meta tag
 
    `<meta property="og:type" content="article" />`
 
@@ -86,7 +86,7 @@
 
    `<meta property="og:url" content="https://html.sammy-codes.com/" />`
 
-9. For twitter Open Graph
+8. For twitter Open Graph
 
    ` <meta name="twitter:card" content="summary_large_image" />`
 
@@ -98,6 +98,6 @@
 
    `<meta name="twitter:image" content="https://html.sammy-codes.com/images/large-profile.jpg" />`
 
-10. For website Responsive
+9. For website Responsive
 
-    ` <meta name="viewport" content="width=device-width, initial-scale=1" />`
+   ` <meta name="viewport" content="width=device-width, initial-scale=1" />`
